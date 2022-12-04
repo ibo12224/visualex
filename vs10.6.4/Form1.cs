@@ -35,7 +35,11 @@ namespace vs10._6._4
                 MessageBox.Show(messageBoxCS.ToString(), "누른 키");
                 
             }
-            
+            if(!(e.Control||e.Shift|| e.Alt))
+            {
+                messageBoxCS.AppendFormat("{0}", e.KeyCode);
+                MessageBox.Show(messageBoxCS.ToString(), "누른 키");
+            }
            
             
             
