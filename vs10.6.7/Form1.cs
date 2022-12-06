@@ -20,7 +20,7 @@ namespace vs10._6._7
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             char c = e.KeyChar;
-            if (c == '1') return;///////////234567890124456771ssiiiissssssssssssssssssssssssssssssssssssssssssssssss
+            if (c == '1') return;///////////234567890124456771ssiiiissssssssssssssssssssssssssssssssssssssssssssssssss
             if (c == '2') return;
             if (c == '3') return;
             if (c == '4') return;
