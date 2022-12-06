@@ -16,5 +16,24 @@ namespace vs10._6._7
         {
             InitializeComponent();
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char c = e.KeyChar;
+            if (c == '1') return;
+            if (c == '2') return;
+            if (c == '3') return;
+            if (c == '4') return;
+            if (c == '5') return;
+            if (c == '6') return;
+            if (c == '7') return;
+            if (c == '8') return;
+            if (c == '9') return;
+            if (c == '0') return;
+            if (c == '-') return;
+            else e.Handled = true;
+
+
+        }
     }
 }
